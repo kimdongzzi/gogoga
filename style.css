@@ -1,6 +1,7 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
+
 body {
   font-family: "Noto Sans KR", sans-serif;
   box-sizing: inherit;
@@ -18,7 +19,7 @@ span {
 }
 /** header **/
 header {
-  width: 70%;
+  width: 80%;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -49,16 +50,17 @@ header {
 /** number-ga **/
 
 .number-ga {
-  position: relative;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
   height: 400px;
   margin: 10px 0;
+  padding: 5% 0;
 }
 .number-ga__margin {
-  width: 5%;
+  width: 10%;
 }
 .number-ga__title {
   display: flex;
@@ -81,9 +83,10 @@ header {
   font-weight: 800;
 }
 .number-ga__title strong:last-child {
-  color: red;
+  color: #ee2742;
 }
 .number-ga-explain__container {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,30 +108,32 @@ header {
   padding: 15px 0;
 }
 .number-ga-explain span:first-child {
-  font-size: 150%;
-  font-weight: 600;
+  font-size: 130%;
+  font-weight: 800;
 }
 .number-ga-explain span:last-child {
   font-size: 210%;
   font-weight: 800;
 }
 .bar {
-  width: 40%;
+  width: 30%;
   height: 2px;
-  margin: 5px 0;
-  background-color: rgb(0, 0, 0, 0.4);
+  margin: 10px 0;
+  background-color: #7f7f7f;
 }
 .number-ga-standard {
   position: absolute;
-  color: rgb(0, 0, 0, 0.7);
+  color: #9f9f9f;
   right: 10%;
-  bottom: 10%;
+  bottom: -10%;
+  font-size: 90%;
+  font-weight: 600;
 }
 
 /** monthly-ga **/
 
 .monthly-ga {
-  width: 85%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,21 +141,21 @@ header {
   margin: 5% 0;
 }
 .monthly-ga__title {
-  width: 100%;
+  width: 90%;
   justify-content: flex-start;
   font-size: 150%;
-  font-weight: 600;
+  font-weight: 800;
 }
 .monthly-ga__title > strong {
-  font-size: 130%;
+  font-size: 120%;
 }
 .monthly-ga__container {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1%;
+  padding: 2%;
 }
 .monthly-ga__content {
   position: relative;
@@ -158,15 +163,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 1px solid #8c8c8c;
+  border-radius: 3px;
   padding: 2% 1%;
   margin: 5px 0;
 }
 .popularity__icon {
   position: absolute;
   top: 10px;
-  left: 0;
+  left: 0px;
 }
 .popularity__icon img {
   width: 65%;
@@ -214,6 +219,7 @@ header {
 }
 .monthly-ga__local > span,
 .monthly-ga__local > i {
+  color: #8c8c8c;
   font-size: 75%;
   padding: 2px;
 }
@@ -233,37 +239,43 @@ header {
 .branch p {
   color: white;
 }
+.branch__margin{
+  width: 10%;
+  height: 800px;
+}
 .branch__column {
-  width: 50%;
+  width: 45%;
   height: 800px;
 }
 .branch__column:first-child {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  padding-left:5%;
 }
 .branch__title {
   width: 100%;
   padding: 20% 0 0 10%;
   font-weight: 600;
-  line-height: 280%;
+  line-height: 300%;
 }
 .branch__title p {
-  font-size: 230%;
+  font-size: 260%;
 }
 .branch__title strong {
   font-size: 140%;
 }
-.branch__column:last-child {
+.branch__column:last-child{
   background-color: rgb(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  line-height: 500%;
+  line-height: 450%;
+  padding-right: 5%;
 }
 .branch__explain p {
-  font-size: 160%;
+  font-size: 180%;
 }
 
 /** factcheck**/
@@ -289,16 +301,18 @@ header {
 }
 .factcheck__title {
   color: white;
-  font-size: 260%;
+  font-size: 280%;
   font-weight: 700;
-  padding: 5% 0;
 }
 .factcheck__explain {
   color: white;
-  font-size: 130%;
-  line-height: 350%;
+  font-size: 150%;
+  line-height: 250%;
   font-weight: 500;
 }
+
+/** review **/
+
 .review {
   background-color: #ffe9ad;
   width: 100%;
@@ -306,25 +320,26 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5% 0;
+  padding: 10% 0;
 }
 .review__title {
   text-align: center;
   width: 80%;
   font-size: 260%;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 120%;
 }
 .review__title strong {
   font-size: 120%;
-  color: red;
+  color: #ee2742;
+  font-weight: 800;
 }
 .review-score__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
-  padding: 5% 0;
+  width: 40%;
+  padding: 3% 0;
 }
 .review-score__column {
   display: flex;
@@ -343,6 +358,7 @@ header {
 }
 .review-score__standard {
   font-size: 100%;
+  font-weight: 600;
   color: rgb(0, 0, 0, 0.5);
 }
 .review-comment__container {
@@ -357,16 +373,22 @@ header {
 }
 .review-comment__column {
   background-color: #fff;
-  padding: 5%;
+  padding: 4%;
   width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  box-shadow: -2px 2px 1em #fed76c;
 }
-
+.content-score{
+  align-self: flex-start;
+}
+.content-score i {
+  font-size: 160%;
+}
 .review-comment__content {
-  font-size: 90%;
+  font-size: 150%;
   font-weight: 500;
   line-height: 120%;
   padding: 5% 0;
@@ -378,11 +400,18 @@ header {
   align-items: center;
   width: 80%;
   font-size: 90%;
+  padding-right: 10%;
+  color:#6f6f6f;
+  font-weight: 500;
 }
 .review-plus i {
   font-size: 120%;
   padding: 1%;
 }
+
+/**partners**/
+
+
 .partners {
   background-color: #f1f1f1;
   width: 100%;
@@ -393,13 +422,13 @@ header {
   padding: 5% 0;
 }
 .partners__title {
-  width: 95%;
+  width: 80%;
   font-size: 200%;
-  font-weight: 600;
+  font-weight: 700;
   justify-content: flex-start;
 }
 .partners-logo__container {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -448,7 +477,8 @@ header {
 }
 .popularity-video__content p {
   font-size: 100%;
-  font-weight: 500;
+  font-weight: 400;
+  padding:1% 0;
 }
 
 /** advertisement **/
@@ -499,7 +529,7 @@ header {
   color: white;
   background-color: #02a5af;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -514,7 +544,7 @@ header {
 /** find-ga **/
 
 .find-ga {
-  width: 85%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -522,7 +552,7 @@ header {
   padding: 5% 0;
 }
 .find-ga__column {
-  width: 40%;
+  width: 50%;
 }
 .find-ga__column:first-child {
   display: flex;
@@ -540,14 +570,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
-  padding: 4% 5%;
+  width: 20%;
+  padding: 2.5% 4%;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 3px;
   font-weight: 500;
+  font-size: 120%;
 }
 .find-ga__btn i {
-  padding: 0 2%;
+  padding-left: 5%;
   margin-bottom: -1%;
 }
 .find-ga-local {
@@ -559,31 +590,33 @@ header {
   padding: 5% 0;
 }
 .find-ga-local__column {
-  width: 100%;
+  width: 80%;
+  margin-right: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 130%;
-  padding: 5% 0;
+  padding: 3% 0;
   font-weight: 500;
 }
 .find-ga__img img {
-  width: 100%;
+  width: 80%;
+  margin-left: 20%;
 }
 
 /** benefits **/
 
 .benefits {
   background-image: url("https://github.com/kimdongzzi/gogoGA-image/blob/master/benefits.jpg?raw=true");
-  background-position: 10%;
+  background-position: 50% ;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   display: flex;
   justify-content: space-between;
 }
 .benefits__column {
-  width: 50%;
-  height: 800px;
+  width: 40%;
+  height: 1000px;
 }
 .benefits__column:last-child {
   background-color: rgb(0, 0, 0, 0.5);
@@ -591,26 +624,27 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-right:10%;
 }
 .benefits__column p {
   color: white;
-  padding: 5% 0;
+  padding: 2% 0;
   line-height: 130%;
 }
 .benefits__title {
   width: 80%;
-  font-size: 220%;
+  font-size: 260%;
   font-weight: 700;
 }
 .benefits__explain {
   width: 80%;
-  font-size: 140%;
+  font-size: 160%;
   font-weight: 500;
 }
 
 /** question **/
 .question {
-  width: 95%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -705,10 +739,7 @@ input:focus {
   border-radius: 16px;
 }
 
-@media screen and (max-width: 1280px) {
-  .container {
-    width: 100%;
-  }
 }
 @media screen and (max-width: 768px) {
+ 
 }
