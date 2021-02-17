@@ -469,7 +469,7 @@ header {
   width: 100%;
 }
 .slide-icon {
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -478,6 +478,7 @@ header {
 }
 .slide-icon__btn {
   font-size: 90%;
+  padding: 3%;
 }
 .advertisement__container {
   display: flex;
