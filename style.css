@@ -41,6 +41,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 100%;
+  font-weight: 600;
 }
 
 /** banner **/
@@ -76,7 +78,7 @@ header {
   font-weight: 600;
 }
 .number-ga__title span {
-  font-size: 140%;
+  font-size: 150%;
 }
 .number-ga__title p {
   font-size: 200%;
@@ -126,6 +128,7 @@ header {
 }
 .number-ga-standard {
   position: absolute;
+  color: rgb(0, 0, 0, 0.7);
   right: 10%;
   bottom: 10%;
 }
