@@ -33,7 +33,7 @@ body {
 
 /** banner **/
 .banner {
-  height: 500px;
+  height: 220px;
 }
 
 .shortcuts {
@@ -73,70 +73,112 @@ body {
 }
 .number-ga-standard {
   font-size: 8px;
+  right: 5px;
 }
 
 /** monthly-ga **/
 
 .monthly-ga {
-  width: 90%;
+  width: 100%;
   padding: 40px 0;
+}
+.monthly-ga__title {
+  width: 95%;
+  font-size: 16px;
+}
+.monthly-ga__container {
+  width: 90%;
+}
+.monthly-ga__content {
+  margin: 12px;
 }
 
 /** branch **/
 
 .branch {
-  height: 600px;
+  background-image: url("https://github.com/kimdongzzi/gogoGA-image/blob/master/branch-mobile.jpg?raw=true");
+  height: 500px;
 }
 .branch__container {
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .branch__column {
-  height: 100%;
+  width: 50%;
+  padding: 0;
+}
+.branch__column:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.branch__column:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 530%;
+  padding: 0;
+}
+.branch__title {
+  line-height: 150%;
+  padding-left: 10px;
 }
 .branch__title p {
   font-size: 16px;
-  padding-left: 10px;
-  line-height: 200%;
+  padding: 0;
 }
 .branch__explain p {
-  font-size: 14px;
-  line-height: 350%;
+  font-size: 11px;
+  line-height: 400%;
 }
 
 /** factcheck**/
 
 .factcheck {
-  height: 600px;
+  background-image: url("https://github.com/kimdongzzi/gogoGA-image/blob/master/factcheck-mobile.jpg?raw=true");
+  height: 500px;
 }
 .factcheck__container {
+  width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.factcheck__column:first-child {
+  display: none;
 }
 .factcheck__column {
+  width: 100%;
   height: 100%;
 }
 .factcheck__title {
-  font-size: 15px;
+  font-size: 16px;
 }
 .factcheck__explain {
-  font-size: 12px;
-  line-height: 200%;
+  font-size: 11px;
+  line-height: 300%;
+  text-align: center;
 }
 
 /** review **/
 
 .review {
-  padding: 80px 0;
+  padding: 40px 0;
+  height: 360px;
 }
-
 .review__title {
   font-size: 20px;
 }
 .review-score__container {
-  width: 80%;
+  width: 60%;
+  padding-top: 40px;
 }
 .review-score__icon i,
 .review-score__subtitle {
-  font-size: 16px;
+  font-size: 11px;
+}
+.review-score__standard {
+  font-size: 8px;
+  padding: 30px 0;
 }
 .review-comment__container {
   width: 100%;
@@ -145,7 +187,7 @@ body {
   font-size: 16px;
 }
 .review-comment__column {
-  width: 140px;
+  width: 135px;
   height: 80px;
   padding: 10px 0 0 10px;
 }
@@ -154,24 +196,27 @@ body {
   margin-bottom: 5px;
 }
 .content-score i {
-  font-size: 12px;
+  font-size: 11px;
 }
 .review-comment__content {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 /**partners**/
 
 .partners {
-  padding: 40px 0;
+  padding: 80px 0 40px 0;
 }
-
 .partners__title {
   width: 90%;
+  font-size: 16px;
+}
+.partners-logo__container {
+  width: 80%;
 }
 .partners-logo__container a {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
 }
 
 /** popularity-video **/
@@ -179,27 +224,39 @@ body {
   padding: 40px 0;
 }
 .popularity-video__title {
-  width: 90%;
-  font-size: 20px;
+  width: 95%;
+  font-size: 16px;
 }
 .popularity-video__container {
-  width: 95%;
+  width: 100%;
 }
-
 .popularity-video__content img {
-  width: 155px;
+  width: 160px;
   height: 90px;
+}
+.popularity-video__content p {
+  font-size: 11px;
 }
 
 /** find-ga **/
 
 .find-ga {
-  width: 95%;
+  width: 100%;
   padding: 40px 0 80px 0;
 }
 .find-ga__title {
   font-size: 24px;
   padding: 15px 0;
+}
+.find-ga__container {
+  width: 100%;
+  flex-direction: column;
+}
+.find-ga__column {
+  width: 100%;
+}
+.find-ga__column:first-child {
+  padding-left: 50px;
 }
 .find-ga__btn {
   width: 70px;
@@ -207,6 +264,7 @@ body {
   font-size: 10px;
 }
 .find-ga-local__column {
+  width: 100%;
   padding-top: 20px;
   font-size: 13px;
 }
@@ -214,17 +272,26 @@ body {
 /** benefits **/
 
 .benefits {
+  background-image: url("https://github.com/kimdongzzi/gogoGA-image/blob/master/branch-mobile.jpg?raw=true");
   height: 500px;
   background-size: cover;
 }
 .benefits__container {
   width: 100%;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+.benefits__column:first-child {
+  display: none;
+}
+.benefits__column:last-child {
+  width: 100%;
+  padding-left: 60px;
 }
 .benefits__title {
-  font-size: 15px;
+  font-size: 16px;
 }
 .benefits__explain {
-  font-size: 12px;
+  font-size: 11px;
 }
 .benefits__column {
   height: 100%;
@@ -234,7 +301,7 @@ body {
 
 .question {
   width: 90%;
-  padding-bottom: 20px;
+  padding: 40px 0;
 }
 .application__name,
 .application__phone,
