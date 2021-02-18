@@ -256,17 +256,23 @@ body {
   width: 100%;
 }
 .find-ga__column:first-child {
-  padding-left: 50px;
+  width: 90%;
 }
 .find-ga__btn {
   width: 70px;
   height: 10px;
   font-size: 10px;
 }
-.find-ga-local__column {
+.find-ga-local {
   width: 100%;
-  padding-top: 20px;
+}
+.find-ga-local__column {
+  width: 90%;
+  padding-top: 25px;
   font-size: 13px;
+}
+.find-ga__column:last-child {
+  width: 100%;
 }
 
 /** benefits **/
