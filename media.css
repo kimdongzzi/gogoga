@@ -45,12 +45,14 @@ body {
 }
 .number-ga-standard {
   font-size: 12px;
+  right: 5px;
 }
 
 /** monthly-ga **/
 
 .monthly-ga {
   width: 100%;
+  padding: 80px 0;
 }
 .monthly-ga__title {
   width: 95%;
@@ -60,7 +62,7 @@ body {
   width: 98%;
 }
 .monthly-ga__content {
-  width: 275px;
+  width: 270px;
   margin: 12px;
 }
 
