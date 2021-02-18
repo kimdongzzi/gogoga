@@ -19,9 +19,9 @@ body {
 /** banner **/
 
 .shortcuts {
-  width: 120px;
+  width: 100px;
   height: 35px;
-  font-size: 18px;
+  font-size: 14px;
 }
 .shortcuts i {
   margin-bottom: -2px;

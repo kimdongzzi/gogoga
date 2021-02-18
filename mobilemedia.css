@@ -37,11 +37,11 @@ body {
 }
 
 .shortcuts {
-  width: 50px;
-  height: 20px;
-  font-size: 10px;
-  border: 1px solid white;
+  width: 70px;
+  height: 25px;
+  font-size: 8px;
   font-weight: normal;
+  bottom: 15%;
 }
 .shortcuts i {
   padding-left: 2px;
