@@ -55,6 +55,12 @@ body {
 .monthly-ga__title {
   font-size: 20px;
 }
+.monthly-ga__container {
+  width: 100%;
+}
+.monthly-ga__content {
+  width: 290px;
+}
 
 /** branch **/
 
@@ -65,11 +71,11 @@ body {
   width: 100%;
 }
 .branch__title p {
-  font-size: 30px;
-  padding-left: 20px;
+  font-size: 29px;
+  padding-left: 10px;
 }
 .branch__explain p {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 /** factcheck**/
@@ -82,7 +88,7 @@ body {
 }
 
 .factcheck__title {
-  font-size: 32px;
+  font-size: 29px;
 }
 .factcheck__explain {
   font-size: 16px;
@@ -95,7 +101,8 @@ body {
   font-size: 32px;
 }
 .review-score__container {
-  width: 60%;
+  width: 55%;
+  padding-top: 50px;
 }
 .review-score__icon i,
 .review-score__subtitle {
@@ -186,6 +193,19 @@ body {
 .question {
   width: 90%;
 }
+.question__maintitle {
+  font-size: 36px;
+}
+.question__subtitle {
+  font-size: 14px;
+}
+.question__img {
+  display: none;
+}
+
+.question__application {
+  width: 100%;
+}
 .application__name,
 .application__phone,
 .application__content,
@@ -202,9 +222,11 @@ textarea {
 .application__name label,
 .application__phone label,
 .application__content label {
-  font-size: 12px;
+  font-size: 14px;
 }
-
+.submit {
+  width: 30%;
+}
 #submit {
   font-size: 14px;
 }
