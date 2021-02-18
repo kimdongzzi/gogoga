@@ -1,7 +1,7 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
-*{
+* {
   font-family: "Noto Sans KR", sans-serif;
 }
 body {
@@ -30,7 +30,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.head-logo{
+.head-logo {
   width: 70%;
   padding-left: 24px;
 }
@@ -76,8 +76,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #EE2843;
-  border-radius: 18px
+  background-color: #ee2843;
+  border-radius: 18px;
 }
 .shortcuts i {
   padding-left: 10px;
@@ -198,7 +198,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1.5px solid rgb(0,0,0,0.3);
+  border: 1.5px solid rgb(0, 0, 0, 0.3);
   border-radius: 3px;
 }
 .popularity__icon {
@@ -276,7 +276,7 @@ header {
 .branch p {
   color: white;
 }
-.branch__container{
+.branch__container {
   width: 1100px;
   height: 900px;
   display: flex;
@@ -309,7 +309,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   font-weight: 500;
-  line-height:530%;
+  line-height: 530%;
   padding-left: 80px;
 }
 .branch__explain p {
@@ -327,7 +327,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-.factcheck__container{
+.factcheck__container {
   width: 1100px;
   height: 900px;
   display: flex;
@@ -340,7 +340,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 .factcheck__title {
   color: white;
@@ -368,7 +368,7 @@ header {
 }
 .review__title {
   text-align: center;
-  width: 1100px; 
+  width: 1100px;
   font-size: 40px;
   font-weight: 800;
   line-height: 150%;
@@ -402,7 +402,7 @@ header {
 .review-score__standard {
   font-size: 16px;
   font-weight: 500;
-  padding:50px  0;
+  padding: 50px 0;
   color: #6f6f6f;
 }
 .review-comment__container {
@@ -411,7 +411,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.slide-btn i{
+.slide-btn i {
   font-size: 30px;
 }
 .review-comment__column {
@@ -425,7 +425,7 @@ header {
   align-items: flex-start;
   box-shadow: -2px 2px 1em #fed76c;
 }
-.content-score{
+.content-score {
   align-self: flex-start;
   margin-bottom: 20px;
 }
@@ -456,7 +456,7 @@ header {
   font-weight: 700;
   justify-content: flex-start;
 }
-.partners__title > strong{
+.partners__title > strong {
   font-size: 120%;
 }
 .partners-logo__container {
@@ -473,11 +473,11 @@ header {
   height: 200px;
   padding: 15px;
 }
-.partners-logo__container > a > img{
+.partners-logo__container > a > img {
   width: 100%;
 }
 .partners-logo__container > a:hover {
-  filter:none;
+  filter: none;
 }
 
 /** popularity-video **/
@@ -517,7 +517,6 @@ header {
 .popularity-video__content img {
   width: 240px;
   height: 137px;
-
 }
 .popularity-video__content p {
   font-size: 16px;
@@ -535,7 +534,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
-.find-ga__container{
+.find-ga__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -589,11 +588,10 @@ header {
   font-weight: 500;
 }
 .find-ga__img {
-  width: 45%;  
+  width: 45%;
 }
 .find-ga__img img {
   width: 100%;
-
 }
 
 /** benefits **/
@@ -611,7 +609,7 @@ header {
   width: 1100px;
   display: flex;
   justify-content: space-between;
-  align-items: center ;
+  align-items: center;
 }
 .benefits__column {
   width: 50%;
@@ -717,7 +715,6 @@ textarea {
   resize: none;
   height: 100px;
   padding: 15px;
-
 }
 .submit {
   background-color: #fff;
@@ -740,6 +737,4 @@ input:focus {
   color: white;
   font-size: 16px;
   border-radius: 18px;
-}
-
 }
