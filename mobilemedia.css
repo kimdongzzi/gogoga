@@ -32,6 +32,9 @@ body {
 }
 
 /** banner **/
+.banner {
+  height: 500px;
+}
 
 .shortcuts {
   width: 50px;
@@ -184,7 +187,7 @@ body {
 }
 
 .popularity-video__content img {
-  width: 158px;
+  width: 155px;
   height: 90px;
 }
 
