@@ -1,167 +1,210 @@
+.banner,
+.number-ga,
+.monthly-ga,
+.branch,
+.factcheck,
+.review,
+.partners,
+.popularity-viedeo,
+.acvertisement,
+.find-ga,
+.benefits,
+.question,
+body {
+  width: 100%;
+}
+
 /** header **/
 
-.head-logo img {
-  width: 30%;
-}
-.header-menu {
-  width: 15%;
-  font-size: 50%;
-}
+/** banner **/
 
-/**banner**/
+.shortcuts {
+  width: 120px;
+  height: 35px;
+  font-size: 18px;
+}
+.shortcuts i {
+  margin-bottom: -2px;
+}
 
 /** number-ga **/
 
-.number-ga {
-  width: 80%;
-  padding: 60px 0;
-}
 .number-ga__title span {
-  font-size: 100%;
+  font-size: 24px;
 }
 .number-ga__title p {
-  font-size: 120%;
-}
-.number-ga__title strong {
-  font-size: 110%;
-}
-.number-ga-explain {
-  padding: 15px 0;
+  font-size: 30px;
 }
 .number-ga-explain span:first-child {
-  font-size: 80%;
-  font-weight: 500;
+  font-size: 19px;
+  font-weight: 800;
 }
 .number-ga-explain span:last-child {
-  font-size: 140%;
-}
-.bar {
-  width: 30%;
-  margin: 5px 0;
+  font-size: 34px;
+  font-weight: 800;
 }
 .number-ga-standard {
-  font-size: 50%;
+  font-size: 12px;
 }
 
 /** monthly-ga **/
 
 .monthly-ga {
   width: 95%;
-  padding: 40px 0;
 }
 .monthly-ga__title {
-  font-size: 100%;
-}
-.monthly-ga__content {
-  width: 47%;
+  font-size: 20px;
 }
 
 /** branch **/
 
 .branch {
-  width: 100%;
   background-size: cover;
-  height: 500px;
 }
 .branch__container {
   width: 100%;
 }
-.branch__container,
-.branch__column {
-  height: 500px;
-}
-
-.branch__title {
-  padding: 10% 0 0 10%;
-}
 .branch__title p {
-  font-size: 180%;
-}
-.branch__title strong {
-  font-size: 120%;
+  font-size: 30px;
+  padding-left: 20px;
 }
 .branch__explain p {
-  font-size: 120%;
-  line-height: 300%;
+  font-size: 24px;
 }
 
 /** factcheck**/
 
 .factcheck {
-  width: 100%;
-  height: 500px;
   background-size: cover;
 }
 .factcheck__container {
-  width: 100%;
+  width: 95%;
 }
-.factcheck__container,
-.factcheck__column {
-  height: 500px;
-}
+
 .factcheck__title {
-  color: white;
-  font-size: 190%;
-  font-weight: 700;
-  padding: 5% 0;
+  font-size: 32px;
 }
 .factcheck__explain {
-  width: 95%;
-  color: white;
-  font-size: 100%;
-  line-height: 350%;
-  font-weight: 500;
+  font-size: 16px;
 }
 
 /** review **/
 
-.review {
-  padding: 40px 0;
-}
 .review__title {
   width: 100%;
-  font-size: 180%;
+  font-size: 32px;
 }
 .review-score__container {
   width: 60%;
 }
-.review-score__icon i {
-  font-size: 120%;
-}
+.review-score__icon i,
 .review-score__subtitle {
-  font-size: 120%;
-  font-weight: 500;
-}
-.review-score__standard {
-  font-size: 80%;
-}
-.review-comment__container {
-  width: 80%;
-}
-.slide-btn i {
-  font-size: 200%;
+  font-size: 20px;
 }
 
-.review-comment__content {
-  width: 100%;
-  font-size: 89%;
-  font-weight: 450;
-  line-height: 120%;
+.review-score__standard {
+  font-size: 12px;
 }
-.review-plus {
-  width: 80%;
-  font-size: 75%;
+.review-comment__container {
+  width: 95%;
+}
+.slide-btn i {
+  font-size: 24px;
+}
+.review-comment__column {
+  width: 220px;
+  height: 100px;
+}
+.review-comment__content {
+  font-size: 16px;
 }
 
 /**partners**/
 
 .partners__title {
   width: 95%;
-  font-size: 100%;
+  font-size: 20px;
 }
+
 .partners-logo__container {
   width: 100%;
+  padding: 0;
 }
-.partners-logo__container img {
-  padding: 1%;
+
+/** popularity-video **/
+
+.popularity-video {
+  width: 100%;
+}
+.popularity-video__title {
+  width: 95%;
+}
+.popularity-video__container {
+  width: 100%;
+}
+.popularity-video__content img {
+  width: 220px;
+  height: 130px;
+}
+
+/** find-ga **/
+
+.find-ga {
+  width: 95%;
+}
+.find-ga__title {
+  font-size: 34px;
+}
+.find-ga__btn {
+  width: 100px;
+  height: 15px;
+  font-size: 14px;
+}
+.find-ga__btn i {
+  padding-left: 5px;
+  margin-bottom: -1px;
+}
+.find-ga-local__column {
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+/** benefits **/
+
+.benefits__container {
+  width: 100%;
+}
+.benefits__title {
+  font-size: 30px;
+}
+.benefits__explain {
+  font-size: 16px;
+}
+
+/** question **/
+
+.question {
+  width: 90%;
+}
+.application__name,
+.application__phone,
+.application__content,
+.submit {
+  margin: 5px 0;
+}
+input,
+textarea {
+  height: 40px;
+}
+textarea {
+  height: 60px;
+}
+.application__name label,
+.application__phone label,
+.application__content label {
+  font-size: 12px;
+}
+
+#submit {
+  font-size: 14px;
 }

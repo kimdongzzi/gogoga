@@ -1,0 +1,267 @@
+.banner,
+.number-ga,
+.monthly-ga,
+.branch,
+.factcheck,
+.review,
+.partners,
+.popularity-viedeo,
+.acvertisement,
+.find-ga,
+.benefits,
+.question,
+body {
+  width: 100%;
+}
+
+/** header **/
+.head-logo {
+  width: 30%;
+  padding-left: 10px;
+}
+.head-logo img {
+  width: 110px;
+  height: 25px;
+}
+.header-menu {
+  font-size: 10px;
+  width: 30%;
+}
+.header-menu a {
+  height: 10px;
+}
+
+/** banner **/
+
+.shortcuts {
+  width: 50px;
+  height: 20px;
+  font-size: 10px;
+  border: 1px solid white;
+  font-weight: normal;
+}
+.shortcuts i {
+  padding-left: 2px;
+  margin: 0;
+}
+
+/** number-ga **/
+
+.number-ga {
+  padding: 80px 0;
+}
+
+.number-ga__title span {
+  font-size: 12px;
+}
+.number-ga__title p {
+  font-size: 16px;
+}
+.number-ga__title strong {
+  font-size: 100%;
+}
+.number-ga-explain span:first-child {
+  font-size: 10px;
+  font-weight: 800;
+}
+.number-ga-explain span:last-child {
+  font-size: 20px;
+  font-weight: 800;
+}
+.number-ga-standard {
+  font-size: 8px;
+}
+
+/** monthly-ga **/
+
+.monthly-ga {
+  width: 90%;
+  padding: 40px 0;
+}
+
+/** branch **/
+
+.branch {
+  height: 600px;
+}
+.branch__container {
+  height: 100%;
+}
+.branch__column {
+  height: 100%;
+}
+.branch__title p {
+  font-size: 16px;
+  padding-left: 10px;
+  line-height: 200%;
+}
+.branch__explain p {
+  font-size: 14px;
+  line-height: 350%;
+}
+
+/** factcheck**/
+
+.factcheck {
+  height: 600px;
+}
+.factcheck__container {
+  height: 100%;
+}
+.factcheck__column {
+  height: 100%;
+}
+.factcheck__title {
+  font-size: 15px;
+}
+.factcheck__explain {
+  font-size: 12px;
+  line-height: 200%;
+}
+
+/** review **/
+
+.review {
+  padding: 80px 0;
+}
+
+.review__title {
+  font-size: 20px;
+}
+.review-score__container {
+  width: 80%;
+}
+.review-score__icon i,
+.review-score__subtitle {
+  font-size: 16px;
+}
+.review-comment__container {
+  width: 100%;
+}
+.slide-btn i {
+  font-size: 16px;
+}
+.review-comment__column {
+  width: 140px;
+  height: 80px;
+  padding: 10px 0 0 10px;
+}
+.content-score {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+.content-score i {
+  font-size: 12px;
+}
+.review-comment__content {
+  font-size: 10px;
+}
+
+/**partners**/
+
+.partners {
+  padding: 40px 0;
+}
+
+.partners__title {
+  width: 90%;
+}
+.partners-logo__container a {
+  width: 150px;
+  height: 150px;
+}
+
+/** popularity-video **/
+.popularity-video {
+  padding: 40px 0;
+}
+.popularity-video__title {
+  width: 90%;
+  font-size: 20px;
+}
+.popularity-video__container {
+  width: 95%;
+}
+
+.popularity-video__content img {
+  width: 158px;
+  height: 90px;
+}
+
+/** find-ga **/
+
+.find-ga {
+  width: 95%;
+  padding: 40px 0 80px 0;
+}
+.find-ga__title {
+  font-size: 24px;
+  padding: 15px 0;
+}
+.find-ga__btn {
+  width: 70px;
+  height: 10px;
+  font-size: 10px;
+}
+.find-ga-local__column {
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+/** benefits **/
+
+.benefits {
+  height: 500px;
+  background-size: cover;
+}
+.benefits__container {
+  width: 100%;
+}
+.benefits__title {
+  font-size: 15px;
+}
+.benefits__explain {
+  font-size: 12px;
+}
+.benefits__column {
+  height: 100%;
+}
+
+/** question **/
+
+.question {
+  width: 90%;
+  padding-bottom: 20px;
+}
+.application__name,
+.application__phone,
+.application__content,
+.submit {
+  margin: 2px 0;
+}
+.question__img {
+  display: none;
+}
+.question__maintitle {
+  font-size: 22px;
+}
+.question__subtitle {
+  padding: 20px 0;
+  font-size: 10px;
+}
+.question__application {
+  width: 100%;
+}
+.application__name label,
+.application__phone label,
+.application__content label {
+  font-size: 8px;
+}
+.application__name,
+.application__phone,
+.application__content {
+  width: 100%;
+}
+#submit {
+  font-size: 12px;
+}
