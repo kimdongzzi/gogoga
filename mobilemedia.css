@@ -83,14 +83,15 @@ body {
   padding: 40px 0;
 }
 .monthly-ga__title {
-  width: 95%;
+  width: 92%;
   font-size: 16px;
 }
 .monthly-ga__container {
-  width: 90%;
+  width: 100%;
 }
 .monthly-ga__content {
   margin: 12px;
+  width: 310px;
 }
 
 /** branch **/
@@ -224,14 +225,17 @@ body {
   padding: 40px 0;
 }
 .popularity-video__title {
-  width: 95%;
+  width: 92%;
   font-size: 16px;
 }
 .popularity-video__container {
-  width: 100%;
+  width: 98%;
+}
+.popularity-video__content {
+  padding: 10px;
 }
 .popularity-video__content img {
-  width: 160px;
+  width: 163px;
   height: 90px;
 }
 .popularity-video__content p {

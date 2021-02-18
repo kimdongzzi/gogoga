@@ -191,7 +191,7 @@ header {
 }
 .monthly-ga__content {
   position: relative;
-  width: 300px;
+  width: 298px;
   height: 140px;
   margin: 25px 12px 0 12px;
   padding: 15px 15px 0 15px;
@@ -714,7 +714,6 @@ textarea {
 textarea {
   resize: none;
   height: 100px;
-  padding: 15px;
 }
 .submit {
   background-color: #fff;

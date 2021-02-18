@@ -50,16 +50,18 @@ body {
 /** monthly-ga **/
 
 .monthly-ga {
-  width: 95%;
+  width: 100%;
 }
 .monthly-ga__title {
+  width: 95%;
   font-size: 20px;
 }
 .monthly-ga__container {
-  width: 100%;
+  width: 98%;
 }
 .monthly-ga__content {
-  width: 290px;
+  width: 275px;
+  margin: 12px;
 }
 
 /** branch **/
@@ -147,7 +149,7 @@ body {
   width: 95%;
 }
 .popularity-video__container {
-  width: 100%;
+  width: 98%;
 }
 .popularity-video__content img {
   width: 220px;
@@ -157,7 +159,7 @@ body {
 /** find-ga **/
 
 .find-ga {
-  width: 95%;
+  width: 80%;
 }
 .find-ga__title {
   font-size: 34px;
