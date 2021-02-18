@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gogoGA</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="media.css">
     <link rel="icon" sizes="32x32 16x16" href="https://www.gogoga.co.kr/favicon-32x32.png" />
 </head>
 <body>
@@ -15,7 +16,6 @@
             </a>            
             <div class="header-menu">
                 <a href="">GA조회</a>
-                <a href="">GA마켓</a>
                 <a href="">이직문의</a>
             </div>
         </header>
@@ -23,7 +23,7 @@
             <img src="https://github.com/kimdongzzi/gogoGA-image/blob/master/Artboard%20.jpg?raw=true" alt="">   
         </section>
         <section class="number-ga">
-            <div class="number-ga__margin"></div>
+            
             <div class="number-ga__title">
                  <span>숫자로 보는 고고지에이</span>
                  <p>
@@ -40,9 +40,9 @@
                         <span>212개</span>
                     </div>
                     <div class="number-ga-explain">
-                        <span>마케팅지원</span>
+                        <span>이직 후 정착률</span>
                         <div class="bar"></div>
-                        <span>200만원</span>
+                        <span>89%</span>
                     </div>
                 </div>
                 <div class="number-ga__column">
@@ -61,7 +61,7 @@
                     <span>2021년 1월 기준</span>
                 </div>
             </div>
-            <div class="number-ga__margin"></div>
+            
         </section>
         <section class="monthly-ga">
             <span class="monthly-ga__title">이달의 <strong>인기 GA</strong></span>
@@ -331,108 +331,46 @@
                         <span>경기 과천시</span>
                     </div>                   
                 </div>
-                <div class="monthly-ga__content">
-                    <div class="popularity__icon">
-                        <img src="https://github.com/kimdongzzi/gogoGA-image/blob/master/popularity.png?raw=true" alt=""/>
-                    </div>
-                    <div class="face__img">
-                        <img src="https://gogoga-fileserver.s3.ap-northeast-2.amazonaws.com/image/avatar/70649d95-74f8-47a5-b6ff-1871776fcf47.png" alt="">
-                    </div>
-                    <div class="monthly-ga__explain">
-                        <span>DB, 세미나모집, 컨텐츠제작, 교육 무상지원</span>
-                        <span class="headquarters">본사 : 밸류마크</span>
-                        <div class="hashtag">
-                            <a href="">#DB</a>
-                            <a href="">#재무설계</a>
-                            <a href="">#보장분석</a>
-                            <a href="">#브리핑영업</a>
-                        </div>
-                    </div>
-                    <div class="monthly-ga__local">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>경기 과천시</span>
-                    </div>                   
-                </div>
-                <div class="monthly-ga__content">
-                    <div class="popularity__icon">
-                        <img src="https://github.com/kimdongzzi/gogoGA-image/blob/master/popularity.png?raw=true" alt=""/>
-                    </div>
-                    <div class="face__img">
-                        <img src="https://gogoga-fileserver.s3.ap-northeast-2.amazonaws.com/image/avatar/70649d95-74f8-47a5-b6ff-1871776fcf47.png" alt="">
-                    </div>
-                    <div class="monthly-ga__explain">
-                        <span>DB, 세미나모집, 컨텐츠제작, 교육 무상지원</span>
-                        <span class="headquarters">본사 : 밸류마크</span>
-                        <div class="hashtag">
-                            <a href="">#DB</a>
-                            <a href="">#재무설계</a>
-                            <a href="">#보장분석</a>
-                            <a href="">#브리핑영업</a>
-                        </div>
-                    </div>
-                    <div class="monthly-ga__local">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>경기 과천시</span>
-                    </div>                   
-                </div>
-                <div class="monthly-ga__content">
-                    <div class="popularity__icon">
-                        <img src="https://github.com/kimdongzzi/gogoGA-image/blob/master/popularity.png?raw=true" alt=""/>
-                    </div>
-                    <div class="face__img">
-                        <img src="https://gogoga-fileserver.s3.ap-northeast-2.amazonaws.com/image/avatar/70649d95-74f8-47a5-b6ff-1871776fcf47.png" alt="">
-                    </div>
-                    <div class="monthly-ga__explain">
-                        <span>DB, 세미나모집, 컨텐츠제작, 교육 무상지원</span>
-                        <span class="headquarters">본사 : 밸류마크</span>
-                        <div class="hashtag">
-                            <a href="">#DB</a>
-                            <a href="">#재무설계</a>
-                            <a href="">#보장분석</a>
-                            <a href="">#브리핑영업</a>
-                        </div>
-                    </div>
-                    <div class="monthly-ga__local">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>경기 과천시</span>
-                    </div>                   
-                </div>
             </div>
         </section>
         <section class="branch"> 
-            <div class="branch__column">
-                <div class="branch__title">
-                    <p>
-                        <strong>최고</strong>의 <strong>조건</strong>으로<br>
-                        우리만의 지사를 만들어요
-                    </p>
+            <section class="branch__container">
+                <div class="branch__column">
+                    <div class="branch__title">
+                        <p>
+                            <strong>최고</strong>의 <strong>조건</strong>으로<br>
+                            우리만의 지사를 만들어요
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="branch__column">
-                <div class="branch__explain">
-                    <p>
-                        업계최고의 수수료<br>
-                        정착지원금 및 대출<br>
-                        다양한 디비지원<br>
-                        우리만의 사무공간지원<br>
-                        마케팅 지원<br>
-                        자체 보험상품 개발
-                    </p>
+                <div class="branch__column">
+                    <div class="branch__explain">
+                        <p>
+                            업계최고의 수수료<br>
+                            정착지원금 및 대출<br>
+                            다양한 디비지원<br>
+                            우리만의 사무공간지원<br>
+                            마케팅 지원<br>
+                            자체 보험상품 개발
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </section>
         </section>
         <section class="factcheck">
-            <div class="factcheck__column"></div>
-            <div class="factcheck__column">
-                <span class="factcheck__title">이직시 꼭 필요한 팩트체크 5</span>
-                <p class="factcheck__explain">
-                    - 투명성(수수료공개, 원장공개, 계약서작성)<br>
-                    - 유연성(조직이동, 개인에서 조직, 조직에서 개인)<br>
-                    - 확장성(디비제공, 교육시스템)<br>
-                    - 성장성(최근 회사의 성장성_설계사수, 매출성장체크)<br>
-                    - 생산성(회사의 규모는 어떤지? 인당 생산성체크)
-                </p>
-            </div>
+            <section class="factcheck__container">
+                <div class="factcheck__column"></div>
+                <div class="factcheck__column">
+                    <span class="factcheck__title">이직시 꼭 필요한 팩트체크 5</span>
+                    <p class="factcheck__explain">
+                        - 투명성(수수료공개, 원장공개, 계약서작성)<br>
+                        - 유연성(조직이동, 개인에서 조직, 조직에서 개인)<br>
+                        - 확장성(디비제공, 교육시스템, 업무지원, 전국지점)<br>
+                        - 성장성(최근 회사의 성장성_설계사수, 매출성장체크)<br>
+                        - 생산성(회사의 규모, 불안전판매율, 수수료율)
+                    </p>
+                </div>
+            </section>
         </section>
         <section class="review">
             <div class="review__title">
@@ -465,7 +403,7 @@
             </div>
             <span class="review-score__standard">(20년 08월 멤버 만족도 조사 / 197개 사 참여)</span>
             <div class="review-comment__container">
-                <button type="button" class="slide-btn" href="">
+                <button type="button" class="slide-btn">
                     <i class="fas fa-chevron-left"></i>
                 </button>
                 <div class="review-comment__column">
@@ -498,7 +436,7 @@
                         </p>
                     </div>
                 </div>
-                <button type="button" class="slide-btn" href="">
+                <button type="button" class="slide-btn">
                     <i class="fas fa-chevron-right"></i>
                 </button>        
             </div>
@@ -526,7 +464,7 @@
         </section>
         <section class="popularity-video">
             <span class="popularity-video__title">
-                지역별 <strong>인기 GA</strong> 영상
+                이달의 <strong>인기</strong> 영상
             </span>
             <div class="popularity-video__container">
                 <div class="popularity-video__content">
@@ -629,63 +567,67 @@
             </div>
         </section>
         <section class="find-ga">
-            <div class="find-ga__column">
-                <p class="find-ga__title">
-                    딱! 맞는 GA를 <br>
-                    소개해드립니다.
-                </p>
-                <a href="" class="find-ga__btn">
-                    상담신청하기<i class="fas fa-chevron-right"></i>
-                </a>
-                <div class="find-ga-local">
-                    <div class="find-ga-local__column">
-                        <a href="">서울</a>
-                        <a href="">인천</a>
-                        <a href="">경기</a>
-                        <a href="">강원</a>
-                    </div>
-                    <div class="find-ga-local__column">
-                        <a href="">대전</a>
-                        <a href="">충북</a>
-                        <a href="">충남</a>
-                        <a href="">대구</a>
-                    </div>
-                    <div class="find-ga-local__column">
-                        <a href="">부산</a>
-                        <a href="">울산</a>
-                        <a href="">경북</a>
-                        <a href="">경남</a>
-                    </div>
-                    <div class="find-ga-local__column">
-                        <a href="">광주</a>
-                        <a href="">전북</a>
-                        <a href="">전남</a>
-                        <a href="">제주</a>
+            <section class="find-ga__container">
+                <div class="find-ga__column">
+                    <p class="find-ga__title">
+                        딱! 맞는 GA를 <br>
+                        소개해드립니다.
+                    </p>
+                    <a href="" class="find-ga__btn">
+                        상담신청하기<i class="fas fa-chevron-right"></i>
+                    </a>
+                    <div class="find-ga-local">
+                        <div class="find-ga-local__column">
+                            <a href="">서울</a>
+                            <a href="">인천</a>
+                            <a href="">경기</a>
+                            <a href="">강원</a>
+                        </div>
+                        <div class="find-ga-local__column">
+                            <a href="">대전</a>
+                            <a href="">충북</a>
+                            <a href="">충남</a>
+                            <a href="">대구</a>
+                        </div>
+                        <div class="find-ga-local__column">
+                            <a href="">부산</a>
+                            <a href="">울산</a>
+                            <a href="">경북</a>
+                            <a href="">경남</a>
+                        </div>
+                        <div class="find-ga-local__column">
+                            <a href="">광주</a>
+                            <a href="">전북</a>
+                            <a href="">전남</a>
+                            <a href="">제주</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="find-ga__column find-ga__img">
-                <img src="https://www.gogoga.co.kr/static/image/slides/slide5-global-ces.png" alt="">
-            </div>
+                <div class="find-ga__column find-ga__img">
+                    <img src="https://www.gogoga.co.kr/static/image/slides/slide5-global-ces.png" alt="">
+                </div>
+            </section>
         </section>
         <section class="benefits">
-            <div class="benefits__column"></div>
-            <div class="benefits__column">
-                <p class="benefits__title">
-                    소개 이직으로는<br>
-                    절대 누릴 수 없는 혜택을<br>
-                    저희가 드립니다
-                </p>
-                <p class="benefits__explain">
-                    -팀장, 본부장 미팅 NO, 리쿠르팅 최고책임자(대표)와 직접 연결해 드립니다.
-                    <br><br>        
-                    -신경쓰이는 소문 NO, 철저하게 비공개로 상담을 진행합니다.
-                    <br><br>
-                    -소개로 이직 NO, 다양한 GA를 비교하여 나에게 꼭 맞는 GA로 입사를 할수 있습니다.
-                    <br><br>
-                    -상담료NO, 이직시 마케팅비는 GA에서 제공하므로 비용없이 최고의 GA를 찾으실 수 있습니다. 
-                </p>
-            </div>
+            <section class="benefits__container">
+                <div class="benefits__column"></div>
+                <div class="benefits__column">
+                    <p class="benefits__title">
+                        소개 이직으로는<br>
+                        절대 누릴 수 없는 혜택을<br>
+                        저희가 드립니다
+                    </p>
+                    <p class="benefits__explain">
+                        -팀장, 본부장 미팅 NO, 리쿠르팅 최고책임자(대표)와 직접 연결해 드립니다.
+                        <br><br>        
+                        -신경쓰이는 소문 NO, 철저하게 비공개로 상담을 진행합니다.
+                        <br><br>
+                        -소개로 이직 NO, 다양한 GA를 비교하여 나에게 꼭 맞는 GA로 입사를 할수 있습니다.
+                        <br><br>
+                        -상담료NO, 이직시 마케팅비는 GA에서 제공하므로 비용없이 최고의 GA를 찾으실 수 있습니다. 
+                    </p>
+                </div>
+            </section>
         </section>
         <section class="question">
             <span class="question__maintitle">문의하기</span>
@@ -719,8 +661,6 @@
                 </div>
             </div>
         </section>
-
-
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous">

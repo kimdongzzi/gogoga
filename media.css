@@ -1,0 +1,167 @@
+/** header **/
+
+.head-logo img {
+  width: 30%;
+}
+.header-menu {
+  width: 15%;
+  font-size: 50%;
+}
+
+/**banner**/
+
+/** number-ga **/
+
+.number-ga {
+  width: 80%;
+  padding: 60px 0;
+}
+.number-ga__title span {
+  font-size: 100%;
+}
+.number-ga__title p {
+  font-size: 120%;
+}
+.number-ga__title strong {
+  font-size: 110%;
+}
+.number-ga-explain {
+  padding: 15px 0;
+}
+.number-ga-explain span:first-child {
+  font-size: 80%;
+  font-weight: 500;
+}
+.number-ga-explain span:last-child {
+  font-size: 140%;
+}
+.bar {
+  width: 30%;
+  margin: 5px 0;
+}
+.number-ga-standard {
+  font-size: 50%;
+}
+
+/** monthly-ga **/
+
+.monthly-ga {
+  width: 95%;
+  padding: 40px 0;
+}
+.monthly-ga__title {
+  font-size: 100%;
+}
+.monthly-ga__content {
+  width: 47%;
+}
+
+/** branch **/
+
+.branch {
+  width: 100%;
+  background-size: cover;
+  height: 500px;
+}
+.branch__container {
+  width: 100%;
+}
+.branch__container,
+.branch__column {
+  height: 500px;
+}
+
+.branch__title {
+  padding: 10% 0 0 10%;
+}
+.branch__title p {
+  font-size: 180%;
+}
+.branch__title strong {
+  font-size: 120%;
+}
+.branch__explain p {
+  font-size: 120%;
+  line-height: 300%;
+}
+
+/** factcheck**/
+
+.factcheck {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.factcheck__container {
+  width: 100%;
+}
+.factcheck__container,
+.factcheck__column {
+  height: 500px;
+}
+.factcheck__title {
+  color: white;
+  font-size: 190%;
+  font-weight: 700;
+  padding: 5% 0;
+}
+.factcheck__explain {
+  width: 95%;
+  color: white;
+  font-size: 100%;
+  line-height: 350%;
+  font-weight: 500;
+}
+
+/** review **/
+
+.review {
+  padding: 40px 0;
+}
+.review__title {
+  width: 100%;
+  font-size: 180%;
+}
+.review-score__container {
+  width: 60%;
+}
+.review-score__icon i {
+  font-size: 120%;
+}
+.review-score__subtitle {
+  font-size: 120%;
+  font-weight: 500;
+}
+.review-score__standard {
+  font-size: 80%;
+}
+.review-comment__container {
+  width: 80%;
+}
+.slide-btn i {
+  font-size: 200%;
+}
+
+.review-comment__content {
+  width: 100%;
+  font-size: 89%;
+  font-weight: 450;
+  line-height: 120%;
+}
+.review-plus {
+  width: 80%;
+  font-size: 75%;
+}
+
+/**partners**/
+
+.partners__title {
+  width: 95%;
+  font-size: 100%;
+}
+.partners-logo__container {
+  width: 100%;
+}
+.partners-logo__container img {
+  padding: 1%;
+}
