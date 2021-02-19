@@ -204,6 +204,13 @@ body {
 .review-comment__content {
   font-size: 8px;
 }
+.review-comment__container .left,
+.review-comment__container .right {
+  font-size: 12px;
+}
+.review-comment__container .slidelist > li > div img {
+  width: 65%;
+}
 
 /**partners**/
 
