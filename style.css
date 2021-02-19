@@ -560,6 +560,67 @@ header {
   width: 100%;
 }
 
+/** advertisement**/
+
+.advertisement {
+  width: 100%;
+}
+
+.ad-section input[id*="ad-slide"] {
+  display: none;
+}
+.ad-section .ad-slidewrap {
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.ad-section .ad-slidelist {
+  white-space: nowrap;
+  font-size: 0;
+}
+.ad-section .ad-slidelist > li {
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.6s;
+  width: 100%;
+}
+.ad-section .ad-slidelist > li > a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ad-section .ad-slidelist > li > a img {
+  width: 70%;
+  padding: 0 50px;
+}
+.ad-section .ad-slidelist > label {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 50px;
+  cursor: pointer;
+}
+.ad-section .ad-slidelist .ad-left {
+  left: 0;
+  font-size: 40px;
+}
+.ad-section .ad-slidelist .ad-right {
+  right: 0;
+  font-size: 40px;
+}
+
+.ad-section [id="ad-slide01"]:checked ~ .ad-slidewrap .ad-slidelist > li {
+  transform: translateX(0%);
+}
+.ad-section [id="ad-slide02"]:checked ~ .ad-slidewrap .ad-slidelist > li {
+  transform: translateX(-100%);
+}
+.ad-section [id="ad-slide03"]:checked ~ .ad-slidewrap .ad-slidelist > li {
+  transform: translateX(-200%);
+}
+
 /** find-ga **/
 
 .find-ga {

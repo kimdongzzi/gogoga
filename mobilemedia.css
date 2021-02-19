@@ -239,6 +239,19 @@ body {
   font-size: 11px;
 }
 
+/**advertisement**/
+
+.ad-section .ad-slidelist .ad-left {
+  font-size: 10px;
+}
+.ad-section .ad-slidelist .ad-right {
+  font-size: 10px;
+}
+.ad-section .ad-slidelist > li > a img {
+  width: 82%;
+  padding: 0 20px;
+}
+
 /** find-ga **/
 
 .find-ga {

@@ -230,3 +230,15 @@ textarea {
 #submit {
   font-size: 14px;
 }
+
+/**advertisement**/
+
+.ad-section .ad-slidelist .ad-left {
+  font-size: 20px;
+}
+.ad-section .ad-slidelist .ad-right {
+  font-size: 20px;
+}
+.ad-section .ad-slidelist > li > a img {
+  width: 80%;
+}
