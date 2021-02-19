@@ -188,9 +188,9 @@ body {
   font-size: 16px;
 }
 .review-comment__column {
-  width: 135px;
+  width: 130px;
   height: 80px;
-  padding: 10px 0 0 10px;
+  padding: 10px 5px 0 10px;
 }
 .content-score {
   align-self: flex-start;
