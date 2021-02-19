@@ -123,16 +123,6 @@ body {
 .review-comment__container {
   width: 95%;
 }
-.slide-btn i {
-  font-size: 24px;
-}
-.review-comment__column {
-  width: 220px;
-  height: 100px;
-}
-.review-comment__content {
-  font-size: 16px;
-}
 .review-comment__container .slidelist > li > div img {
   width: 75%;
 }

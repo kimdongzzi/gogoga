@@ -190,24 +190,7 @@ body {
 .review-comment__container {
   width: 100%;
 }
-.slide-btn i {
-  font-size: 16px;
-}
-.review-comment__column {
-  width: 130px;
-  height: 80px;
-  padding: 10px 5px 0 10px;
-}
-.content-score {
-  align-self: flex-start;
-  margin-bottom: 5px;
-}
-.content-score i {
-  font-size: 11px;
-}
-.review-comment__content {
-  font-size: 8px;
-}
+
 .review-comment__container .left,
 .review-comment__container .right {
   font-size: 12px;
