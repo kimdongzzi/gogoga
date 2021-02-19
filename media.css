@@ -59,7 +59,8 @@ body {
   font-size: 20px;
 }
 .monthly-ga__container {
-  width: 98%;
+  width: 100%;
+  justify-content: center;
 }
 .monthly-ga__content {
   width: 270px;

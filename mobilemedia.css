@@ -231,14 +231,15 @@ body {
   font-size: 16px;
 }
 .popularity-video__container {
-  width: 98%;
+  width: 100%;
+  justify-content: center;
 }
 .popularity-video__content {
   padding: 8px;
 }
 .popularity-video__content img {
-  width: 165px;
-  height: 90px;
+  width: 170px;
+  height: 95px;
 }
 .popularity-video__content p {
   font-size: 11px;
