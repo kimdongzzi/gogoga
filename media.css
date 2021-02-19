@@ -75,9 +75,12 @@ body {
 .branch__container {
   width: 100%;
 }
+.branch__column:first-child {
+  justify-content: flex-end;
+}
 .branch__title p {
   font-size: 29px;
-  padding-left: 10px;
+  padding-right: 20px;
 }
 .branch__explain p {
   font-size: 16px;
@@ -210,7 +213,6 @@ body {
 .question__img {
   display: none;
 }
-
 .question__application {
   width: 100%;
 }
