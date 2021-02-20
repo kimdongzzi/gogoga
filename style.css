@@ -312,7 +312,7 @@ header {
   padding-left: 80px;
 }
 .branch__explain p {
-  font-size: 22px;
+  font-size: 25px;
 }
 
 /** factcheck**/
@@ -341,7 +341,11 @@ header {
   justify-content: center;
   align-items: center;
 }
+.factcheck__column:last-child {
+  align-self: flex-start;
+}
 .factcheck__title {
+  width: 100%;
   color: white;
   font-size: 44px;
   font-weight: 700;
@@ -349,7 +353,7 @@ header {
 }
 .factcheck__explain {
   color: white;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 350%;
   font-weight: 500;
 }
@@ -813,8 +817,8 @@ textarea {
   height: 100px;
 }
 .submit {
-  background-color: #fff;
   width: 35%;
+  margin-bottom: 4rem;
 }
 input::placeholder,
 textarea::placeholder {

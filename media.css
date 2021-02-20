@@ -94,8 +94,8 @@ body {
 .factcheck__container {
   width: 95%;
 }
-
 .factcheck__title {
+  width: auto;
   font-size: 29px;
 }
 .factcheck__explain {
@@ -192,7 +192,7 @@ body {
 /** question **/
 
 .question {
-  width: 90%;
+  width: 80%;
 }
 .question__maintitle {
   font-size: 36px;
