@@ -211,6 +211,8 @@ body {
 }
 .question__application {
   width: 100%;
+  padding: 40px 0;
+  position: inherit;
 }
 .application__name,
 .application__phone,

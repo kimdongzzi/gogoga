@@ -340,7 +340,8 @@ body {
   font-size: 10px;
 }
 .question__application {
-  width: 100%;
+  width: 90%;
+  padding: 40px 20px;
 }
 .application__name label,
 .application__phone label,
