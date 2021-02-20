@@ -135,7 +135,7 @@ body {
   padding: 0;
 }
 .branch__explain p {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 400%;
 }
 
@@ -161,7 +161,7 @@ body {
   font-size: 16px;
 }
 .factcheck__explain {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 300%;
   text-align: center;
 }

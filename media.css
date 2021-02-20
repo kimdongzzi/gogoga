@@ -83,7 +83,7 @@ body {
   padding-right: 20px;
 }
 .branch__explain p {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 /** factcheck**/
@@ -94,12 +94,18 @@ body {
 .factcheck__container {
   width: 95%;
 }
+.factcheck__column:last-child {
+  justify-content: center;
+  align-items: center;
+}
 .factcheck__title {
   width: auto;
   font-size: 29px;
 }
+
 .factcheck__explain {
-  font-size: 16px;
+  text-align: center;
+  font-size: 17px;
 }
 
 /** review **/
