@@ -573,7 +573,7 @@ header {
   display: none;
 }
 .ad-section .ad-slidewrap {
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -594,7 +594,7 @@ header {
   align-items: center;
 }
 .ad-section .ad-slidelist > li > a img {
-  width: 70%;
+  width: 85%;
   padding: 0 50px;
 }
 .ad-section .ad-slidelist > label {
